@@ -1,0 +1,84 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 jun 2024, 22:48:04
+    Author     : sergi
+*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header, footer {
+    background-color: #1a202c;
+    color: white;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 16px;
+}
+main {
+    flex: 1;
+}
+section {
+    padding: 16px;
+}
+.section-dark {
+    background-color: #1a202c;
+    color: white;
+}
+.section-light {
+    background-color: #f7fafc;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+}
+.mb-4 {
+    margin-bottom: 16px;
+}
+.mb-8 {
+    margin-bottom: 32px;
+}
+.grid {
+    display: grid;
+    gap: 16px;
+}
+.grid-2 {
+    grid-template-columns: 1fr 1fr;
+}
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+.button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+.button-outline {
+    background: none;
+    border: 1px solid currentColor;
+}
+.card {
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+}
+.text-gray-500 {
+    color: #6b7280;
+}
+
+
