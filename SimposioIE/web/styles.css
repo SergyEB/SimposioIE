@@ -14,7 +14,7 @@ body {
     font-family: Arial, sans-serif;
 }
 header, footer {
-    background-color: #1a202c;
+    background-color: #32a5c8;
     color: white;
     padding: 16px;
     display: flex;
@@ -33,7 +33,7 @@ section {
     padding: 16px;
 }
 .section-dark {
-    background-color: #1a202c;
+    background-color: #2e568a;
     color: white;
 }
 .section-light {
@@ -47,8 +47,18 @@ section {
     text-align: center;
 }
 .mb-4 {
-    margin-bottom: 16px;
+    margin-bottom: 3px;
+
 }
+
+.informacion{
+
+padding-right: 48%;
+text-align: left;
+
+
+}
+
 .mb-8 {
     margin-bottom: 32px;
 }
@@ -56,8 +66,8 @@ section {
     display: grid;
     gap: 16px;
 }
-.grid-2 {
-    grid-template-columns: 1fr 1fr;
+.grid-3 events {
+    grid-template-columns: repeat(3, 1fr);
 }
 .grid-3 {
     grid-template-columns: repeat(3, 1fr);
@@ -81,4 +91,32 @@ section {
     color: #6b7280;
 }
 
+.button-container{
+  
+  display: flex;
+  
+  justify-content: flex-end;
+  padding: 5px 0px 10px 10px;
+}
 
+.button-container button{
+  display: block;
+    width:  40px;
+    height: 40px;
+
+  background-color: pink;
+}
+
+.button-container button:hover{
+  background-color: #b165b4;
+  transition-duration: 1s;
+
+}
+
+.columnaDosInfo{
+
+    padding: 0px 0px 0px 30px;
+    justify-content: left;
+
+
+}
