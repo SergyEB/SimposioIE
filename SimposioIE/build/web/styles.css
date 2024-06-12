@@ -38,13 +38,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-   font-size: 2.5em; 
+    font-size: 2.5em;
 }
 h2{
-   font-size: 2em; 
+    font-size: 2em;
 }
 h3{
-   font-size: 1.75em;
+    font-size: 1.75em;
 }
 header {
     background-color: #ffffff;
@@ -60,12 +60,12 @@ header {
     padding: 15px 20px 30px 20px; /* Ajusta el padding según tus necesidades */
 }
 .ucrlogo{
-    
+
     width: 175px;
     height: 82px;
 }
 .cielogo{
-    
+
     width: 305px;
     height: 83px;
 }
@@ -77,7 +77,7 @@ nav{
     background-color: #2e568a;
     padding: 0 20px;
 }
-nav a { 
+nav a {
     color: white;
     text-decoration: none;
     margin: 15px 15px;
@@ -98,6 +98,11 @@ main {
 section {
     padding: 16px;
 }
+.container-title {
+    height: 250px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .title-background {
     background-color: #2e568a;
     color: white;
@@ -105,20 +110,33 @@ section {
 .schedule{
     padding-bottom: 32px;
     background-color: #2e568a;
+
+}
+.container-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 200px;
+    padding: 20px;
+}
+.informacion{
     
+    text-align: justify;
+    margin-bottom: 20px;
 }
 .section-light {
     background-color: #f7fafc;
 }
-.container-title {
-    height: 250px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.container-info-schedule {
+
+.container-schedule {
     max-width: 1200px;
     margin: 0 auto;
     
+}
+.img-container {
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container-contactus{
     max-width: 800px;
@@ -126,33 +144,37 @@ section {
     padding: 20px;
 }
 
-
 .text-center {
     text-align: center;
 }
-.mb-4 {
-    margin-bottom: 3px;
 
-}
-
-.mt-8{
+.mt-32{
     margin-top: 32px;
 }
+.mt-16{
+    margin-top: 16px;
+}
 
-.informacion{
-    padding-right: 48%;
-    text-align: justify;
+.mb-4 {
+    margin-bottom: 3px;
 }
 
 .mb-8 {
     margin-bottom: 32px;
 }
+
+.ml-200{
+    margin-left: 200px;
+}
+
 .grid {
     display: grid;
     gap: 16px;
 }
 .grid-2 {
-     grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Espacio entre columnas internas */
 }
 .grid-3 events {
     grid-template-columns: repeat(3, 1fr);
@@ -218,7 +240,7 @@ j
 }
 
 label {
-    
+
     margin-bottom: 5px;
 }
 
