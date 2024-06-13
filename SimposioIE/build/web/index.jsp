@@ -26,8 +26,8 @@
             <nav>
                 <a href="#">Accesibilidad</a>
                 <a href="#">Inicio</a>
-                <a href="#">Participar</a>
-                <a href="#">Contactanos</a>
+                <a href="registro.jsp">Participar</a>
+                <a href="registro.jsp">Contactanos</a>
                 <a href="#">Cronograma</a>
                 <a href="#">Localización</a>
             </nav>
